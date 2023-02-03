@@ -26,8 +26,8 @@ class BankAccount:
         print(f"Name: {self.name}\nBalance: {self.balance}")
 
 if __name__ == '__main__':
-    blokhinDima = BankAccount("John Doe")
-    blokhinaAlina = BankAccount("Jane Doe")
+    blokhinDima = BankAccount("Blokhin Dima")
+    blokhinaAlina = BankAccount("Blokhina Alina")
     blokhinDima.deposit(1000)
     blokhinDima.transfer(blokhinaAlina, 500)
     blokhinDima.show_balance()
